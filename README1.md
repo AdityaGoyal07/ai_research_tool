@@ -142,9 +142,7 @@ unstructured==0.12.6
 
 | Core (`main.py`) | Enhanced (`enhanced_main.py`) |
 |:----------------:|:----------------------------:|
-| ![core](attached_image:3) | ![enhanced](attached_image:4) |
-
-*(Replace with fresh screenshots once deployed.)*
+| ![core](<img width="1824" height="801" alt="Screenshot 2025-08-18 033358" src="https://github.com/user-attachments/assets/3432f0d1-0339-4ff9-b079-22fffbfbf311" />) | ![enhanced](<img width="1826" height="860" alt="Screenshot 2025-08-18 033136" src="https://github.com/user-attachments/assets/52c99aba-f50d-4e36-a303-02d43f797bd2" />) |
 
 ---
 
