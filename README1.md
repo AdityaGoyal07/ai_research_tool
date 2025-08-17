@@ -10,6 +10,8 @@
 ---
 
 ![Architecture](chart:29)
+<img width="2400" height="1800" alt="9cc06003" src="https://github.com/user-attachments/assets/0ee4f07f-dd72-4831-8912-e53cfb375dda" />
+
 
 > The pipeline shared by both apps: **URL → Loader → Text Splitter → FAISS + OpenAI Embeddings → Retrieval-QA → Answer + Sources**.
 
