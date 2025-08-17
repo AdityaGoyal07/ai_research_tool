@@ -8,8 +8,6 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_openai import OpenAI
 from dotenv import load_dotenv
 import random
-st.title("Main App" if __file__.endswith("main.py") else "Enhanced Main App")
-
 
 load_dotenv()
 # Set the OpenAI API key
