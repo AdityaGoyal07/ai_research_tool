@@ -5,6 +5,11 @@ A dual-mode Streamlit application that turns any set of news-article URLs into a
 * **Basic Mode (`main.py`)** – lightning-fast proof-of-concept.
 * **Enhanced Mode (`enhanced_main.py`)** – feature-rich UI with automatic question suggestions, dark theme, and extra productivity tools.
 
+| App | Entry-point | Audience | Key idea |
+|-----|-------------|----------|----------|
+| **Core** | `main.py` | Minimal, lightning-fast demo | Paste URLs → vector index → ask questions |
+| **Enhanced** | `enhanced_main.py` | Power users & portfolio showcase | Same engine + smart question suggestions, rich UI, dark theme |
+
 ---
 
 ## 🌟 Project Statement
@@ -25,13 +30,20 @@ The **AI Research Tool** solves this by automatically:
 
 ---
 
+## Architecture
+<img width="2400" height="1800" alt="9cc06003" src="https://github.com/user-attachments/assets/f191de59-5bb4-4953-8be4-44018a399228" />
+
+
+---
 ## 📸 Screenshots
 
 Enhanced UI
-[1]
+<img width="1826" height="860" alt="Screenshot 2025-08-18 033136" src="https://github.com/user-attachments/assets/47662e60-4d26-4afe-9867-dde79a77b2b9" />
+
+
 
 Basic UI
-[2]
+<img width="1824" height="801" alt="Screenshot 2025-08-18 033358" src="https://github.com/user-attachments/assets/fe91bea3-5c00-4ebb-af67-8d136b9c0390" />
 
 ---
 
