@@ -9,7 +9,7 @@
 
 ---
 
-![Architecture](chart:29)
+# Architecture
 <img width="2400" height="1800" alt="9cc06003" src="https://github.com/user-attachments/assets/0ee4f07f-dd72-4831-8912-e53cfb375dda" />
 
 
@@ -142,7 +142,7 @@ unstructured==0.12.6
 
 | Core (`main.py`) | Enhanced (`enhanced_main.py`) |
 |:----------------:|:----------------------------:|
-| ![core](<img width="1824" height="801" alt="Screenshot 2025-08-18 033358" src="https://github.com/user-attachments/assets/3432f0d1-0339-4ff9-b079-22fffbfbf311" />) | ![enhanced](<img width="1826" height="860" alt="Screenshot 2025-08-18 033136" src="https://github.com/user-attachments/assets/52c99aba-f50d-4e36-a303-02d43f797bd2" />) |
+| <img width="1824" height="801" alt="Screenshot 2025-08-18 033358" src="https://github.com/user-attachments/assets/3432f0d1-0339-4ff9-b079-22fffbfbf311" /> | <img width="1826" height="860" alt="Screenshot 2025-08-18 033136" src="https://github.com/user-attachments/assets/52c99aba-f50d-4e36-a303-02d43f797bd2" /> |
 
 ---
 
