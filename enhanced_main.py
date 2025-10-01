@@ -165,7 +165,7 @@ def generate_suggested_questions(docs, sample_size=8):
         
         # Improved general-purpose question generation prompt
         question_prompt = f"""
-        Based on the following news content, generate 6 specific, insightful questions that would be valuable for understanding and analyzing the topics discussed. Focus on questions about:
+        Based on the following news content, generate 10 specific, insightful questions that would be valuable for understanding and analyzing the topics discussed. Focus on questions about:
         - Key events and developments mentioned
         - Policy implications and impacts
         - Economic and business implications
@@ -178,7 +178,7 @@ def generate_suggested_questions(docs, sample_size=8):
         {combined_text}
         
         Requirements:
-        - Generate exactly 6 questions, each on a new line starting with "Q:"
+        - Generate exactly 10 questions, each on a new line starting with "Q:"
         - Make questions specific to the actual content provided
         - Focus on the main topics, companies, countries, policies, or events mentioned in the text
         - Avoid generic questions - be specific to what's actually discussed
@@ -199,7 +199,7 @@ def generate_suggested_questions(docs, sample_size=8):
                     questions.append(question)
         
         # Ensure we have exactly 6 questions
-        if len(questions) < 6:
+        if len(questions) < 10:
             content_lower = combined_text.lower()
             default_questions = []
             
@@ -229,9 +229,9 @@ def generate_suggested_questions(docs, sample_size=8):
                     "What challenges and opportunities are identified in the content?"
                 ]
             
-            questions.extend(default_questions[:6-len(questions)])
+            questions.extend(default_questions[:10-len(questions)])
         
-        return questions[:6]
+        return questions[:10]
     
     except Exception as e:
         st.error(f"Error generating questions: {str(e)}")
